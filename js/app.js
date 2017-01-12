@@ -1,13 +1,36 @@
-'use strict';
+angular.module(
+		'2048App',
+		[ 'mobile-angular-ui.gestures.swipe', 'Game', 'Grid', 'ngAnimate',
+				'ngStorage' ]).config(function(GridServiceProvider) {
+	GridServiceProvider.setSize(4);
+}).controller('GameController', function(GameManager, $scope, $localStorage) {
 
-var app = angular.module('standingsApp', ['mobile-angular-ui', 'mobile-angular-ui.gestures', 'ngRoute', 'ngStorage']);
+	this.game = GameManager;
 
-app.run(function($transform) {
-	window.$transform = $transform;
-});
+	this.newGame = function() {
+		this.game.newGame();
+	};
 
-app.config(function($routeProvider) {
-	$routeProvider.when('/', {templateUrl: 'home.html', reloadOnSearch: false});
-	$routeProvider.when('/standings', {templateUrl: 'standings.html', reloadOnSearch: false});
-	$routeProvider.when('/teams', {templateUrl: 'teams.html', reloadOnSearch: false});
+	this.startGame = function() {
+		var self = this;
+		$scope.swiped = function(direction) {
+			self.game.move(direction);
+		};
+	};
+
+	/*if ($localStorage.game) {
+		this.game = $localStorage.game;
+		this.startGame();
+	} else {*/
+		this.newGame();
+		this.startGame();
+	/*}*/
+
+	var buttonEvent = function(e) {
+		if (e.keyName == "back") {
+			tizen.application.getCurrentApplication().exit();
+		}
+	}
+
+	document.addEventListener('tizenhwkey', buttonEvent);
 });

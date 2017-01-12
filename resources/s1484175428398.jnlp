@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0 + " codebase="http://img-developer.samsung.com/contents/rtl/upload/clientjar/">
+    <information>
+        <title>RTL Device Client</title>
+        <vendor>Samsung Mobile RTL</vendor>
+        <homepage href="null/"/>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.7+ "/>
+        <jar href="client-web-2.3.5.jar" main="true" download="eager"/>
+    </resources>
+    <application-desc main-class="com.samsung.rtl.ui.ClientRun" >
+        <argument>18A0A7CA7FB7481EE7D2DD7237B3F0780EF569E9F212876D4AEFB93FE7391C79ECDA710A46D50D774494CFBF26CA6A8DF30D5A039BCD184B7006B2C121CACB7AB695D20CE342CE11E05EBDD084C5FBF7B0DC406B2D8DCE02B06034B6A03E97D9563B150E4E7262CEA1F85FE57859887C90E346EA67579E89F40A27139DECB862E3410776C898C0521287B6774DCE1C1E04B50AA3698094504D12E150DF3B9EF1FA07542C5FB235B7B17F5323C6568E5000732D97C4619613FA6D3B058AC2483FE7D2DD7237B3F078B9F3E7D42C978BB54358F897B04A59B7E2E91E172CD026217615D56971A1DCA5C1A076115759F9260E1D266223FA7B3DDE73C3B363F0C6E1</argument>
+    </application-desc>
+</jnlp>

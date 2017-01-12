@@ -2,9 +2,9 @@
 <SignedInfo>
 <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></CanonicalizationMethod>
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
-<Reference URI="angular-route_license.md">
+<Reference URI="2048_117.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>MU3EUGVQfGc+1th+nnf0KAS/qgtBORoO3Zp3v7iqdNU=</DigestValue>
+<DigestValue>TbsMMiafQcCu2Vz5bTWzBS33J5ELLgupitXd6jEPles=</DigestValue>
 </Reference>
 <Reference URI="angularJS_license.md">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -12,11 +12,11 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Jh8pR/G+23xDzEeYfUdwiss7XS6IsXBa1AridrVKThk=</DigestValue>
+<DigestValue>XqkiyjutnC2Ny5XSWEQKG3WqDcy61+tmCSqctFTSoPk=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>cGfCmZ0XDoHz2s0H2ycuk5JLSp+fV1fbwl9F8yInh64=</DigestValue>
+<DigestValue>IifWtNFJjUZbLn0XaTxB+RNm/7D5yZFtWe8DBi5gpC0=</DigestValue>
 </Reference>
 <Reference URI="css%2Fmobile-angular-ui-base.min.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,7 +24,7 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>DH8Xsk7LfeYHD1v67FqJruRStQGXhCHR3RovY8qdvvE=</DigestValue>
+<DigestValue>YEgoSbgqDyBDUdcKOp4pfQTRP0QrIuLm3ZJSgjlhbCg=</DigestValue>
 </Reference>
 <Reference URI="fonts%2Ffontawesome-webfont.eot">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -46,73 +46,77 @@
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>faz4P1EXnejXmApRPmerOgjyxicrtZRt+P13wNF2O3M=</DigestValue>
 </Reference>
-<Reference URI="football_117.png">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ercePb005/vzWHyohvw57XcgIXkvpCBQtHO0cy4Wago=</DigestValue>
-</Reference>
-<Reference URI="home.html">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>4ce9RvqjS6S1+2W4iPuZYV3VAV2qnkpXL69ZZDqKDaI=</DigestValue>
-</Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>3il+PC+stxws+KR5Jrp2X49zZtu3LK7apgeu/Ojqx1I=</DigestValue>
+<DigestValue>oF1AqGxaFFq76McxXQuJvd3rnjWJi7zWbrHZtn3KLa8=</DigestValue>
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>L+05KZ+wJq4kehVB09HFeT2q6WAKAkiA5zPBSu836Iw=</DigestValue>
+<DigestValue>hhl4RZheixS9VD6vaZ3ilI7UQobN0jaez1IudXxy8x4=</DigestValue>
 </Reference>
-<Reference URI="js%2Fcontrollers%2Fstandings-controller.js">
+<Reference URI="js%2Fgame%2Fgame.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>ZBtn0TCGj0O2IRfR1Zf4KBpIu3K2ki/yXYXnYbm5Qws=</DigestValue>
+<DigestValue>eIeMvSzKclP52q9o7GPROEt3CZtaQSVi0QyMDVIsM98=</DigestValue>
 </Reference>
-<Reference URI="js%2Fservices%2Fdata-service.service.js">
+<Reference URI="js%2Fgrid%2Fgrid.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>9FreMwDNDl3EgFK1As12rqRDM1R/FrYiCaNNFpxJsKA=</DigestValue>
+<DigestValue>LPdvuXYPc54dN5OWIAsFiAfwvD4GhTmSzGYG31iXccY=</DigestValue>
 </Reference>
-<Reference URI="mobile-angular-ui_license.md">
+<Reference URI="js%2Fgrid%2Fgrid.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>GByv+QUrCtPZhUqZlvfjcjqHhdpOc8W4/LIR1UQxnLE=</DigestValue>
+<DigestValue>cY4ZSauJmsiAuSMQaS2gNY3/+vooEzBpikGfl4jmXAI=</DigestValue>
+</Reference>
+<Reference URI="js%2Fgrid%2Fgrid_directive.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>ECO1KdRwiCcLIEzxofX/w3r9OovT4Cv/w/ZZVhqEYZg=</DigestValue>
+</Reference>
+<Reference URI="js%2Fgrid%2Ftile.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>6r9QXY6PSLU4GaiRyn8oJrHr4BbIWlkbY0ZW7+pNqiY=</DigestValue>
+</Reference>
+<Reference URI="js%2Fgrid%2Ftile_directive.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>CxmooMnsvxY26sUwzThmP45z0JOAv3S6UgXuK19z4Sk=</DigestValue>
 </Reference>
 <Reference URI="ngStorage_license.md">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>t/ccYa/pq/QYWaV+xVXQ44Zhk1Ta1CnemUr/wPW8cV0=</DigestValue>
 </Reference>
-<Reference URI="resources%2Fangular-route.min.js">
+<Reference URI="resources%2Fangular-animate.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>G+1+tim/HxoMbe2+rEPbXMlbqDTBm2V6vIe+Q/o6ccQ=</DigestValue>
+<DigestValue>lqK8Dhbu54U0Tc6yGV0I3q7R3lIY7nfy86hNJL7PVg4=</DigestValue>
+</Reference>
+<Reference URI="resources%2Fangular-swipe.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>NMH1yu8MeroQlURdoWsNFD817zzXrVytG3vsjjZbET8=</DigestValue>
 </Reference>
 <Reference URI="resources%2Fangular.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>/Ux6PXN4PVrOLU6RZE9hyvbmMJyK4sbjF6Jyw0lysl0=</DigestValue>
 </Reference>
-<Reference URI="resources%2Fmobile-angular-ui.core.min.js">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>fSRhcnhtHOnIq6AmAdJDJEHrZl8t6Xk1TstnF6HgnKA=</DigestValue>
-</Reference>
-<Reference URI="resources%2Fmobile-angular-ui.gestures.min.js">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>A8jkDxNMxeJOOj9qaF+0IUCkNhpTNDP0F3uE2DBOiWI=</DigestValue>
-</Reference>
-<Reference URI="resources%2Fmobile-angular-ui.min.js">
-<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>XHOoRF1486XGlkcsZcsmQxGQ2JDlJSsJcXzi56SR1OQ=</DigestValue>
-</Reference>
 <Reference URI="resources%2FngStorage.min.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>l2U1HzXWmQvn5cAx7/5Gwsem4MFSzA+yxYr6lhdzhSA=</DigestValue>
 </Reference>
-<Reference URI="sidebar.html">
+<Reference URI="resources%2Fs1484175428398.jnlp">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>bMGW4dsLKmn6gZ0icQJhgGJPGha8vJxoDzA8U6SowgA=</DigestValue>
+<DigestValue>kmureiAtVblTCghR+BJa86fu3ykzroncKcOJfZ4t4TM=</DigestValue>
 </Reference>
-<Reference URI="standings.html">
+<Reference URI="resources%2Fs1484175640175.jnlp">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>Ar0nnuwPoXhTjqueDL1DpD8v/fA4SfpCtlhn/HmyIZ0=</DigestValue>
+<DigestValue>yZl3LmyUDUk57kxXxG7msw6AutzZ93fWUjq/GegTxVU=</DigestValue>
 </Reference>
-<Reference URI="teams.html">
+<Reference URI="resources%2Fswipe.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>NYZOKolMjhER/fOUlnpePFg0nf7yDpa9leBKfLrfLOc=</DigestValue>
+<DigestValue>d6HnnkgMEdybS4liHgYirUqE/kZG10Bz8HjZufb6/Ag=</DigestValue>
+</Reference>
+<Reference URI="resources%2Ftouch.js">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>34gKu4ZVEH5sMF/swSC52lI/RxVYi6cSM9OXz7SVvqQ=</DigestValue>
+</Reference>
+<Reference URI="views%2Fmain.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>DIONfH9//6fk6w1lwgyU5+YUm7c/xVM9+VGGb8/hhOs=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -123,9 +127,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-AlmLzMPvNTCVoeAaZXdsozi4xlFYK6+flCj6nOpPxgdPB9pJO3L7hM9VHx++L6nsYHb7LzQmu+vf
-sD2WN8zW19YRs7y2wrvaALImU/f/QDs7gk56fOg1+hRrZc6l0x6IJLHvf9nQe3+kaEJ6ALhFI/BW
-S8yNct7Fclo9+L4nhFg=
+NbGETuM+bfTcSN3gWp3C5iAHTcW6XwbwhPGynoQJumxpz/l7/Za5MzbCr9egcdOZStqSog6I8bQo
+64Ba1kPLf6V8C18tDqRzPd0QG0qDSZYuoJuN1uEdgMg8KPxW7WeT/JZKbP9Q7IK1MtOdg8tqikz8
+jubPOgiEVtRxtFDR4SU=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

@@ -1,0 +1,48 @@
+<div ng-controller='GameController as ctrl' 
+	ui-swipe-left="swiped('left')"
+	ui-swipe-right="swiped('right')"
+	ui-swipe-bottom="swiped('down')"
+	ui-swipe-top="swiped('up')">  
+  <div id="scores">
+      <div class="score-container">{{ctrl.game.currentScore}}</div>
+      <button ng-click='ctrl.newGame()' class="restart-button">New game</button>
+      <div class="best-container">{{ctrl.game.highScore}}</div>
+  </div>
+
+  <div id="instructions">
+    Join the numbers and get to the <strong>2048</strong> tile!
+  </div>
+  
+  <div id="game-container">
+    <div grid ng-model='ctrl.game'></div>
+
+    <div id="game-over" ng-if="ctrl.game.gameOver" class="game-overlay">
+      Game over
+
+      <div class="lower">
+        <a class="retry-button" ng-click='ctrl.newGame()'>Try again</a>
+      </div>
+    </div>
+
+    <div id="win" ng-if="ctrl.game.win" class="game-overlay">
+      You win!
+
+      <div class="lower">
+       	<a class="continue-button" ng-click='ctrl.game.win = false; ctrl.game.goForMax = true;'>Continue</a>
+        <a class="retry-button" ng-click='ctrl.newGame()'>Try again</a>
+      </div>
+    </div>
+    
+    <div id="maxWin" ng-if="ctrl.game.maxWin" class="game-overlay">
+      You win with max score!
+
+      <div class="lower">
+        <a class="retry-button" ng-click='ctrl.newGame()'>Try again</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="game-explanation">
+    <strong class="important">How to play:</strong> Swipe <strong>up, down, left and right</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+  </p>
+</div>
