@@ -12,7 +12,7 @@
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>XqkiyjutnC2Ny5XSWEQKG3WqDcy61+tmCSqctFTSoPk=</DigestValue>
+<DigestValue>H8YSC056As7uvK4yhi4N2jI7KwUNN4cr5av0wHDzZNk=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,7 +24,7 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>YEgoSbgqDyBDUdcKOp4pfQTRP0QrIuLm3ZJSgjlhbCg=</DigestValue>
+<DigestValue>jma9CHA58b5/TSYXDRumkH50obwxernVhc++WvfgBmk=</DigestValue>
 </Reference>
 <Reference URI="fonts%2Ffontawesome-webfont.eot">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -52,7 +52,7 @@
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>hhl4RZheixS9VD6vaZ3ilI7UQobN0jaez1IudXxy8x4=</DigestValue>
+<DigestValue>vlsCeMEXZhwXuyCaXCc7zDji5X+FjXZttoH6jxLWgoM=</DigestValue>
 </Reference>
 <Reference URI="js%2Fgame%2Fgame.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -64,7 +64,7 @@
 </Reference>
 <Reference URI="js%2Fgrid%2Fgrid.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>cY4ZSauJmsiAuSMQaS2gNY3/+vooEzBpikGfl4jmXAI=</DigestValue>
+<DigestValue>UwjtHGHudfdiX/3RAwVLKWBemXgSJyjjIItG9lpo8mc=</DigestValue>
 </Reference>
 <Reference URI="js%2Fgrid%2Fgrid_directive.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -116,7 +116,7 @@
 </Reference>
 <Reference URI="views%2Fmain.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>DIONfH9//6fk6w1lwgyU5+YUm7c/xVM9+VGGb8/hhOs=</DigestValue>
+<DigestValue>XdvNA7Qdkle12Wt7vS20blfyqljRGxZDKvUkvAlBiUc=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -127,9 +127,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-NbGETuM+bfTcSN3gWp3C5iAHTcW6XwbwhPGynoQJumxpz/l7/Za5MzbCr9egcdOZStqSog6I8bQo
-64Ba1kPLf6V8C18tDqRzPd0QG0qDSZYuoJuN1uEdgMg8KPxW7WeT/JZKbP9Q7IK1MtOdg8tqikz8
-jubPOgiEVtRxtFDR4SU=
+VAAB5BaOYbdOVYT35RsHI2cbE12sjKUSRTTGxKoZrFhxIdptN5EneOUeKWH1SATg8DIYWsiAxeAa
+TyLViB3QWY1IfjRN1CsP/i6V+OWDQ/MP567u1thpCFwXusHlQiSpOzogqVVfMnacyGRIe3/JjirS
+EI6Kx6sjFQxpHH9nu1I=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

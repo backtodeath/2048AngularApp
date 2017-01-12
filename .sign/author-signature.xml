@@ -20,7 +20,7 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>YEgoSbgqDyBDUdcKOp4pfQTRP0QrIuLm3ZJSgjlhbCg=</DigestValue>
+<DigestValue>jma9CHA58b5/TSYXDRumkH50obwxernVhc++WvfgBmk=</DigestValue>
 </Reference>
 <Reference URI="fonts%2Ffontawesome-webfont.eot">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -48,7 +48,7 @@
 </Reference>
 <Reference URI="js%2Fapp.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>hhl4RZheixS9VD6vaZ3ilI7UQobN0jaez1IudXxy8x4=</DigestValue>
+<DigestValue>vlsCeMEXZhwXuyCaXCc7zDji5X+FjXZttoH6jxLWgoM=</DigestValue>
 </Reference>
 <Reference URI="js%2Fgame%2Fgame.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -60,7 +60,7 @@
 </Reference>
 <Reference URI="js%2Fgrid%2Fgrid.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>cY4ZSauJmsiAuSMQaS2gNY3/+vooEzBpikGfl4jmXAI=</DigestValue>
+<DigestValue>UwjtHGHudfdiX/3RAwVLKWBemXgSJyjjIItG9lpo8mc=</DigestValue>
 </Reference>
 <Reference URI="js%2Fgrid%2Fgrid_directive.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -112,7 +112,7 @@
 </Reference>
 <Reference URI="views%2Fmain.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>DIONfH9//6fk6w1lwgyU5+YUm7c/xVM9+VGGb8/hhOs=</DigestValue>
+<DigestValue>XdvNA7Qdkle12Wt7vS20blfyqljRGxZDKvUkvAlBiUc=</DigestValue>
 </Reference>
 <Reference URI="#prop">
 <Transforms>
@@ -123,9 +123,9 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-DNiDaQnyRUvGNf/cz4WTcgAaQXSM0d67ejIz/7yWstmTizpFFyaDIO4Gvq2yirABy+m0zdEmngfj
-L3HQ+jx2UNnjYbMWYLXHPqs2t4y7MMg6cha/euhk/XAMPgcohmu60fhCDzk3PfWEK+Qx9mO0oMNr
-LXHLOxD4D96EdlShppY=
+BAom7r0YByr4lp2Dz5obEIovOTppwUoThMMy9YwC4vxDTVh5PwO/AApqxqnkPHERMXje6y+IfcMi
+sSsYHRJLypJ6yCzOYa1Esh/x17WzQIJOzBDUko00AvHXmfV6dUuWH9inJHigG4xiBH1/OSdBlUyk
+qaoCMaVIL6dj3wRNC9g=
 </SignatureValue>
 <KeyInfo>
 <X509Data>

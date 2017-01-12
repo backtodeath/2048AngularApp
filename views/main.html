@@ -4,9 +4,9 @@
 	ui-swipe-bottom="swiped('down')"
 	ui-swipe-top="swiped('up')">  
   <div id="scores">
-      <div class="score-container">{{ctrl.game.currentScore}}</div>
+      <div class="score-container">{{game.currentScore}}</div>
       <button ng-click='ctrl.newGame()' class="restart-button">New game</button>
-      <div class="best-container">{{ctrl.game.highScore}}</div>
+      <div class="best-container">{{game.highScore}}</div>
   </div>
 
   <div id="instructions">
@@ -14,9 +14,9 @@
   </div>
   
   <div id="game-container">
-    <div grid ng-model='ctrl.game'></div>
+    <div grid ng-model='game'></div>
 
-    <div id="game-over" ng-if="ctrl.game.gameOver" class="game-overlay">
+    <div id="game-over" ng-if="game.gameOver" class="game-overlay">
       Game over
 
       <div class="lower">
@@ -24,16 +24,16 @@
       </div>
     </div>
 
-    <div id="win" ng-if="ctrl.game.win" class="game-overlay">
+    <div id="win" ng-if="game.win" class="game-overlay">
       You win!
 
       <div class="lower">
-       	<a class="continue-button" ng-click='ctrl.game.win = false; ctrl.game.goForMax = true;'>Continue</a>
+       	<a class="continue-button" ng-click='game.win = false; game.goForMax = true;'>Continue</a>
         <a class="retry-button" ng-click='ctrl.newGame()'>Try again</a>
       </div>
     </div>
     
-    <div id="maxWin" ng-if="ctrl.game.maxWin" class="game-overlay">
+    <div id="maxWin" ng-if="game.maxWin" class="game-overlay">
       You win with max score!
 
       <div class="lower">

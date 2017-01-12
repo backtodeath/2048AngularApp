@@ -20,8 +20,8 @@ angular.module('Grid', [])
     this.x      = pos.x;
     this.y      = pos.y;
     this.value  = val || 2;
-
     this.id = GenerateUniqueId.next();
+
     this.merged = null;
   };
 
@@ -188,6 +188,25 @@ angular.module('Grid', [])
       for (var x = 0; x < this.startingTileNumber; x++) {
         this.randomlyInsertNewTile();
       }
+    };
+    
+    /*
+     * Build tiles for continue
+     */
+    this.buildContinuePosition = function(tiles) {
+      for (var x = 0; x < tiles.length; x++) {
+    	  var tile = tiles[x];
+    	  if(tile){
+    		  this.setCellAt({
+    			  x: tile.x,
+    			  y: tile.y
+    		  }, this.newTile({
+    			  x: tile.x,
+    			  y: tile.y
+    		  }, tile.value));
+    	  }
+      }
+      return tiles;
     };
 
     /*
