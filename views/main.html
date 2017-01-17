@@ -4,9 +4,19 @@
 	ui-swipe-bottom="swiped('down')"
 	ui-swipe-top="swiped('up')">  
   <div id="scores">
-      <div class="score-container">{{game.currentScore}}</div>
-      <button ng-click='ctrl.newGame()' class="restart-button">New game</button>
-      <div class="best-container">{{game.highScore}}</div>
+  	<table class="scores-table">
+  		<tr>
+		  	<td>
+		      	<div class="score-container">{{game.currentScore}}</div>
+		     </td>
+      		<td>
+	      		<button ng-click='ctrl.newGame()' class="restart-button">New game</button>
+	      	</td>
+      		<td>
+      			<div class="best-container">{{game.highScore}}</div>
+      		</td>
+      	</tr>
+     </table>
   </div>
 
   <div id="instructions">

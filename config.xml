@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/twenty-game" version="1.0.0" viewmodes="fullscreen">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/twenty-game" version="1.0.1" viewmodes="fullscreen">
     <tizen:application id="dGO0uEJlrM.twentygame" package="dGO0uEJlrM" required_version="2.3"/>
     <author email="lirolaluis@gmail.com">Luis Lirola</author>
     <content src="index.html"/>
